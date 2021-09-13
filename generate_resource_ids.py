@@ -31,7 +31,7 @@ def main(input_file_path, output_file_path):
   output_file_contents = ["#ifndef {0}_H\n#define {0}_H\n".format(header_file_name)]
 
   for i, v in enumerate(ids):
-    output_file_contents.append("#define {} {}".format(v, i))
+    output_file_contents.append("#define {} {}".format(v, i + 1))
 
   output_file_contents.append("\n#endif // {}_H\n".format(header_file_name))
 
