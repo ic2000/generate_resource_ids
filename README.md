@@ -18,4 +18,4 @@ optional arguments:
 
 Include the generated header file in `resource.h`.
 
-> **_NOTE:_** Resource names must follow the WINAPI/MFC ID naming convention by using the prefix `ID_` or `IDX_` (where X refers to a variable letter) to be recognised by the script. See the full list of ID prefixes [here]( https://docs.microsoft.com/en-us/cpp/mfc/tn020-id-naming-and-numbering-conventions?view=msvc-160.).
+> **_NOTE:_** Resource names must follow the WinAPI/MFC ID naming convention by using the prefix `ID_` or `IDX_` (where X refers to a variable letter) to be recognised by the script. See the full list of ID prefixes [here]( https://docs.microsoft.com/en-us/cpp/mfc/tn020-id-naming-and-numbering-conventions?view=msvc-160.).
