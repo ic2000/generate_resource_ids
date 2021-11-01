@@ -44,5 +44,7 @@ if __name__ == "__main__":
   parser = argparse.ArgumentParser(description="Generate a header file containing macro definitions for the IDs of a resource file.")
   parser.add_argument("inputfile", help="the path of the resource file")
   parser.add_argument("outputfile", help="the path where the header file will be generated")
+  
   args = parser.parse_args()
+  
   sys.exit(main(args.inputfile, args.outputfile))
